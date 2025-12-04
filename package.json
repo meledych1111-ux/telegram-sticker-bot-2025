@@ -1,0 +1,46 @@
+{
+  "name": "sticker-bot-telegram",
+  "version": "4.0.0",
+  "description": "Telegram bot for creating stickers with 20+ effects",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --env-file=.env index.js",
+    "vercel-build": "echo 'No build step required'",
+    "test": "echo 'No tests'",
+    "deploy": "vercel --prod"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "telegraf": "^4.16.3",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "vercel": "^37.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "sticker",
+    "vercel",
+    "sharp",
+    "effects",
+    "image-processing"
+  ],
+  "author": "StickerBot Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/sticker-bot"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/sticker-bot/issues"
+  },
+  "homepage": "https://github.com/yourusername/sticker-bot#readme"
+}
