@@ -1,12 +1,11 @@
 {
-  "version": 3,
+  "version": 2,
   "builds": [
     {
       "src": "index.js",
       "use": "@vercel/node",
       "config": {
-        "nodeVersion": "20.x",
-        "includeFiles": ["index.js", "package.json"]
+        "nodeVersion": "20.x"
       }
     }
   ],
@@ -19,14 +18,5 @@
       "src": "/(.*)",
       "dest": "/index.js"
     }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "regions": ["iad1"],
-  "git": {
-    "deploymentEnabled": {
-      "main": true
-    }
-  }
+  ]
 }
