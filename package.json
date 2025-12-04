@@ -1,39 +1,31 @@
 {
-  "name": "telegram-sticker-bot-2025",
-  "version": "3.0.0",
-  "description": "Telegram бот для создания стикеров на Node.js 24+",
+  "name": "mystickermarket-bot",
+  "version": "2025.1.0",
+  "description": "MyStickerMarketBot25 - Telegram bot for creating stickers with Node.js 24",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "node --env-file=.env index.js",
-    "vercel-build": "echo \"Building for Node.js 24+\" && npm install",
-    "test": "echo \"✅ Бот готов к работе\""
+    "vercel-build": "npm install",
+    "test": "echo \"No tests specified\"",
+    "deploy": "vercel --prod"
   },
   "engines": {
-    "node": ">=24.0.0",
-    "npm": ">=10.0.0"
+    "node": ">=18.0.0"
   },
   "dependencies": {
-    "express": "^5.0.0",
-    "telegraf": "^5.0.0",
+    "express": "^4.18.2",
+    "telegraf": "^4.16.3",
     "sharp": "^0.34.0"
-  },
-  "devDependencies": {
-    "@types/node": "^22.0.0"
   },
   "keywords": [
     "telegram",
     "bot",
     "sticker",
-    "ai",
-    "vercel",
-    "nodejs24"
+    "nodejs",
+    "vercel"
   ],
-  "author": "StickerBot Creator",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yourusername/sticker-bot-2025"
-  }
+  "author": "MyStickerMarketBot25",
+  "license": "MIT"
 }
