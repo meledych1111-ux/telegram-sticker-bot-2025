@@ -1,24 +1,15 @@
 {
-  "name": "mystickermarket-bot",
+  "name": "sticker-bot-effects",
   "version": "1.0.0",
-  "description": "MyStickerMarketBot25 - Telegram sticker creator bot",
+  "description": "Telegram бот со стикерами и эффектами",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "node index.js",
-    "deploy": "vercel --prod"
+    "dev": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "telegraf": "^4.16.3",
     "sharp": "^0.34.0"
-  },
-  "keywords": [
-    "telegram",
-    "bot",
-    "sticker",
-    "nodejs"
-  ],
-  "author": "MyStickerMarketBot25",
-  "license": "MIT"
+  }
 }
