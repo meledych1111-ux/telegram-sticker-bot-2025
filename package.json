@@ -1,0 +1,39 @@
+{
+  "name": "telegram-sticker-bot-2025",
+  "version": "3.0.0",
+  "description": "Telegram бот для создания стикеров на Node.js 24+",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --env-file=.env index.js",
+    "vercel-build": "echo \"Building for Node.js 24+\" && npm install",
+    "test": "echo \"✅ Бот готов к работе\""
+  },
+  "engines": {
+    "node": ">=24.0.0",
+    "npm": ">=10.0.0"
+  },
+  "dependencies": {
+    "express": "^5.0.0",
+    "telegraf": "^5.0.0",
+    "sharp": "^0.34.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "sticker",
+    "ai",
+    "vercel",
+    "nodejs24"
+  ],
+  "author": "StickerBot Creator",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/sticker-bot-2025"
+  }
+}
