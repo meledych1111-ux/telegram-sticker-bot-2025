@@ -1,17 +1,12 @@
 {
   "name": "mystickermarket-bot",
-  "version": "2025.1.0",
-  "description": "MyStickerMarketBot25 - Telegram bot for creating stickers",
+  "version": "1.0.0",
+  "description": "MyStickerMarketBot25 - Telegram sticker creator bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "node index.js",
-    "vercel-build": "echo \"Building with Node.js 20\"",
     "deploy": "vercel --prod"
-  },
-  "engines": {
-    "node": "20.x",
-    "npm": ">=10.0.0"
   },
   "dependencies": {
     "express": "^4.18.2",
@@ -22,8 +17,7 @@
     "telegram",
     "bot",
     "sticker",
-    "nodejs",
-    "vercel"
+    "nodejs"
   ],
   "author": "MyStickerMarketBot25",
   "license": "MIT"
